@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/wm-events/static/js/main.b4589761.chunk.js",
-    "main.js.map": "/wm-events/static/js/main.b4589761.chunk.js.map",
+    "main.js": "/wm-events/static/js/main.785e1f14.chunk.js",
+    "main.js.map": "/wm-events/static/js/main.785e1f14.chunk.js.map",
     "runtime-main.js": "/wm-events/static/js/runtime-main.574dd7a6.js",
     "runtime-main.js.map": "/wm-events/static/js/runtime-main.574dd7a6.js.map",
-    "static/js/2.46a8fc97.chunk.js": "/wm-events/static/js/2.46a8fc97.chunk.js",
-    "static/js/2.46a8fc97.chunk.js.map": "/wm-events/static/js/2.46a8fc97.chunk.js.map",
+    "static/js/2.78a892ba.chunk.js": "/wm-events/static/js/2.78a892ba.chunk.js",
+    "static/js/2.78a892ba.chunk.js.map": "/wm-events/static/js/2.78a892ba.chunk.js.map",
     "index.html": "/wm-events/index.html",
-    "precache-manifest.ff3f34ab16d15452768bbec4f23607a9.js": "/wm-events/precache-manifest.ff3f34ab16d15452768bbec4f23607a9.js",
+    "precache-manifest.cc76c9ddf83d2565649a033ff09d1a31.js": "/wm-events/precache-manifest.cc76c9ddf83d2565649a033ff09d1a31.js",
     "service-worker.js": "/wm-events/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.574dd7a6.js",
-    "static/js/2.46a8fc97.chunk.js",
-    "static/js/main.b4589761.chunk.js"
+    "static/js/2.78a892ba.chunk.js",
+    "static/js/main.785e1f14.chunk.js"
   ]
 }
