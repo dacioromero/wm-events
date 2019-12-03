@@ -1,10 +1,5 @@
-import React, { FC, useState, useEffect, useCallback, ChangeEvent } from "react";
-
-declare global {
-  interface Document {
-    monetization?: any
-  }
-}
+import React, { FC, useState, useCallback, ChangeEvent } from "react";
+import { useListener } from 'react-hook-wm'
 
 const initialFilter = {
   monetizationpending: true,
@@ -26,30 +21,20 @@ const Log: FC = () => {
     }))
   }, [])
 
-  useEffect(() => {
-    const { monetization } = document
 
-    if (!monetization) return
+  function handleMonetization (event: any) {
+    setLog(log => [
+      [event.type, JSON.stringify(event.detail, null, 2)],
+      ...log
+    ])
+  }
 
-    function handleMonetization (event: any) {
-      setLog(log => [
-        [event.type, JSON.stringify(event.detail, null, 2)],
-        ...log
-      ])
-    }
-
-    monetization.addEventListener('monetizationpending', handleMonetization)
-    monetization.addEventListener('monetizationstart', handleMonetization)
-    monetization.addEventListener('monetizationprogress', handleMonetization)
-    monetization.addEventListener('monetizationstop', handleMonetization)
-
-    return () => {
-      monetization.removeEventListener('monetizationpending', handleMonetization)
-      monetization.removeEventListener('monetizationstart', handleMonetization)
-      monetization.removeEventListener('monetizationprogress', handleMonetization)
-      monetization.removeEventListener('monetizationstop', handleMonetization)
-    }
-  }, [])
+  useListener({
+    onPending: handleMonetization,
+    onStart: handleMonetization,
+    onProgress: handleMonetization,
+    onStop: handleMonetization
+  })
 
   const filterSet = new Set(Object.entries(filter).filter(([, value]) => value).map(([name]) => name))
 
