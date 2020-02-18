@@ -17,11 +17,23 @@ const Pointer: FC = () => {
         />
       </Helmet>
       <label>
-        <input type='radio' name='pointer' value={tipbot} onChange={handleChange} checked={pointer === tipbot} />
+        <input
+          type='radio'
+          name='pointer'
+          value={tipbot}
+          onChange={handleChange}
+          checked={pointer === tipbot}
+        />
         XRP TipBot
       </label>
       <label>
-        <input type='radio' name='pointer' value={stronghold} onChange={handleChange} checked={pointer === stronghold} />
+        <input
+          type='radio'
+          name='pointer'
+          value={stronghold}
+          onChange={handleChange}
+          checked={pointer === stronghold}
+        />
         Stronghold
       </label>
       <pre>{pointer}</pre>
