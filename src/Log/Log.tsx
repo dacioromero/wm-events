@@ -1,7 +1,7 @@
-import React, { FC, useState, useCallback, ChangeEvent } from "react";
+import React, { FC, useState, ChangeEvent } from 'react'
 
-import { Filters } from "./shared";
-import Entries from "./Entries";
+import { Filters } from './shared'
+import Events from './Events'
 
 const initialFilters: Filters = {
   monetizationpending: true,
@@ -13,29 +13,30 @@ const initialFilters: Filters = {
 const Log: FC = () => {
   const [filters, setFilters] = useState(initialFilters)
 
-  const handleFilterChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    const { name, checked } = event.target
+  function handleFilterChange(event: ChangeEvent<HTMLInputElement>) {
+    const { value, checked } = event.target
 
     setFilters(filter => ({
       ...filter,
-      [name]: checked
+      [value]: checked
     }))
-  }, [])
+  }
 
   return (
     <>
-      {Object.entries(filters).map(([type, checked]) => (
-        <label key={type}>
+      {Object.entries(filters).map(([value, checked]) => (
+        <label key={value}>
           <input
             onChange={handleFilterChange}
             checked={checked}
-            name={type}
+            value={value}
+            name='filters'
             type='checkbox'
           />
-          {type}
+          {value}
         </label>
       ))}
-      <Entries filters={filters} />
+      <Events filters={filters} />
     </>
   )
 }

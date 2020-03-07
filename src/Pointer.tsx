@@ -1,4 +1,4 @@
-import React, { FC, useState, useCallback, ChangeEvent } from 'react'
+import React, { useState, FC, ChangeEvent } from 'react'
 import { Helmet } from 'react-helmet'
 
 const tipbot = '$coil.xrptipbot.com/7UT9ayR4TgK5U4sqcd3y_g'
@@ -6,7 +6,10 @@ const stronghold = '$pay.stronghold.co/1a1263c3795a7d24987bf8ff352503fdab9'
 
 const Pointer: FC = () => {
   const [pointer, setPointer] = useState(tipbot)
-  const handleChange = useCallback((event: ChangeEvent<HTMLInputElement>) => setPointer(event.target.value), [])
+
+  function handleChange (event: ChangeEvent<HTMLInputElement>): void {
+    setPointer(event.target.value)
+  }
 
   return (
     <>
