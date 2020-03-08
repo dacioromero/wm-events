@@ -4,16 +4,16 @@
     "main.js.map": "/wm-events/static/js/main.56ac9736.chunk.js.map",
     "runtime-main.js": "/wm-events/static/js/runtime-main.7fa7463d.js",
     "runtime-main.js.map": "/wm-events/static/js/runtime-main.7fa7463d.js.map",
-    "static/js/2.c24a5083.chunk.js": "/wm-events/static/js/2.c24a5083.chunk.js",
-    "static/js/2.c24a5083.chunk.js.map": "/wm-events/static/js/2.c24a5083.chunk.js.map",
+    "static/js/2.e0c06357.chunk.js": "/wm-events/static/js/2.e0c06357.chunk.js",
+    "static/js/2.e0c06357.chunk.js.map": "/wm-events/static/js/2.e0c06357.chunk.js.map",
     "index.html": "/wm-events/index.html",
-    "precache-manifest.59d86d5b19a7a458d53000bc63bf1841.js": "/wm-events/precache-manifest.59d86d5b19a7a458d53000bc63bf1841.js",
+    "precache-manifest.bd11d53167cb788675a73a70460f89a6.js": "/wm-events/precache-manifest.bd11d53167cb788675a73a70460f89a6.js",
     "service-worker.js": "/wm-events/service-worker.js",
-    "static/js/2.c24a5083.chunk.js.LICENSE.txt": "/wm-events/static/js/2.c24a5083.chunk.js.LICENSE.txt"
+    "static/js/2.e0c06357.chunk.js.LICENSE.txt": "/wm-events/static/js/2.e0c06357.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7fa7463d.js",
-    "static/js/2.c24a5083.chunk.js",
+    "static/js/2.e0c06357.chunk.js",
     "static/js/main.56ac9736.chunk.js"
   ]
 }
