@@ -1,5 +1,6 @@
 import React, { useState, FC, ChangeEvent } from 'react'
-import { Helmet } from 'react-helmet'
+// @ts-ignore
+import { Helmet } from 'react-helmet/es/Helmet'
 
 const tipbot = '$coil.xrptipbot.com/7UT9ayR4TgK5U4sqcd3y_g'
 const stronghold = '$pay.stronghold.co/1a1263c3795a7d24987bf8ff352503fdab9'

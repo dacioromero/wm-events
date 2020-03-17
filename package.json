@@ -2,21 +2,12 @@
   "name": "wm-events",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-helmet": "^5.2.1",
-    "react-hook-wm": "^0.1.12",
-    "react-scripts": "^3.2.0"
-  },
+  "homepage": "https://dacioromero.github.io/wm-events/",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "build": "react-app-rewired build",
+    "eject": "react-app-rewired eject",
+    "start": "react-app-rewired start",
+    "test": "react-app-rewired test"
   },
   "browserslist": {
     "production": [
@@ -30,14 +21,24 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
     "@types/jest": "25.1.4",
-    "@types/node": "13.9.0",
+    "@types/node": "13.9.1",
     "@types/react": "16.9.23",
     "@types/react-dom": "16.9.5",
     "@types/react-helmet": "^5.0.15",
+    "customize-cra": "^0.9.1",
+    "preact": "^10.3.4",
+    "react": "^16.13.0",
+    "react-app-rewired": "^2.1.5",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "react-hook-wm": "^0.1.12",
+    "react-scripts": "^3.2.0",
     "types-wm": "^1.1.0",
-    "typescript": "3.8.3"
-  },
-  "homepage": "https://dacioromero.github.io/wm-events/"
+    "typescript": "^3.8.3"
+  }
 }
