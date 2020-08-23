@@ -8449,13 +8449,12 @@ react-helmet@^5.2.1:
     react-fast-compare "^2.0.2"
     react-side-effect "^1.1.0"
 
-react-hook-wm@^0.1.13:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/react-hook-wm/-/react-hook-wm-0.1.13.tgz#8b8b57e9086b4c1533cc6af6678a553fd510d241"
-  integrity sha512-t4BmjaDyYTSRnwSKrjxkSuK0VVdZDm0FMtdVFzQkbJyn6qIwvmxALLk16/IfKZjA5mp63PB3JG+17EY2HzdS/g==
+react-hook-wm@^0.1.15:
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/react-hook-wm/-/react-hook-wm-0.1.15.tgz#8fbd622a4ba1f3e55998f6c4377e2f81c61eb34a"
+  integrity sha512-n/t1X3Mijw7RhoZQiT66l8lOiAYu8JCnBHzHLe9u3J8yFrjKKarBueF/tQrz0CbjrjgKbPqUAEdJKVCjCYufVQ==
   dependencies:
-    tslib "^1.11.1"
-    types-wm "^1.1.0"
+    tslib "^2.0.1"
 
 react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.0"
@@ -9900,10 +9899,15 @@ ts-pnp@^1.1.2:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.6.tgz#389a24396d425a0d3162e96d2b4638900fdc289a"
   integrity sha512-CrG5GqAAzMT7144Cl+UIFP7mz/iIhiy+xQ6GGcnjTezhALT02uPMRw7tgDSESgB5MsfKt55+GPWw4ir1kVtMIQ==
 
-tslib@^1.10.0, tslib@^1.11.1, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
+
+tslib@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
+  integrity sha512-SgIkNheinmEBgx1IUNirK0TUD4X9yjjBRTqqjggWCU3pUEqIk3/Uwl3yRixYKT6WjQuGiwDv4NomL3wqRCj+CQ==
 
 tsutils@^3.17.1:
   version "3.17.1"
