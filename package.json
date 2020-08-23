@@ -30,7 +30,7 @@
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
     "@types/react-helmet": "^5.0.15",
-    "customize-cra": "^0.9.1",
+    "customize-cra": "^1.0.0",
     "preact": "^10.3.4",
     "react": "^16.13.0",
     "react-app-rewired": "^2.1.5",
