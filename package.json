@@ -28,7 +28,7 @@
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.1",
     "@types/react": "^16.9.23",
-    "@types/react-dom": "^16.9.5",
+    "@types/react-dom": "^16.9.8",
     "@types/react-helmet": "^5.0.15",
     "customize-cra": "^1.0.0",
     "preact": "^10.3.4",
