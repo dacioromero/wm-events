@@ -2,7 +2,7 @@
   "name": "wm-events",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dacioromero.github.io/wm-events/",
+  "homepage": "https://wm-events.dacio.app/",
   "scripts": {
     "build": "react-app-rewired build",
     "eject": "react-app-rewired eject",
