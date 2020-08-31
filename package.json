@@ -33,7 +33,7 @@
     "preact": "^10.3.4",
     "react": "^16.13.1",
     "react-app-rewired": "^2.1.6",
-    "react-dom": "^16.13.0",
+    "react-dom": "^16.13.1",
     "react-hook-wm": "^0.1.15",
     "react-scripts": "^3.2.0",
     "types-wm": "^1.1.0",
