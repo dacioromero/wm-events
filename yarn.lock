@@ -8601,10 +8601,10 @@ postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.16, po
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-preact@^10.5.2:
-  version "10.5.2"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.2.tgz#4c07c27f4239666840e0d637ec7c110cfcae181d"
-  integrity sha512-4y2Q6kMiJtMONMJR7z+o8P5tGkMzVItyy77AXGrUdusv+dk4jwoS3KrpCBkFloY2xsScRJYwZQZrx89tTjDkOw==
+preact@^10.6.5:
+  version "10.6.5"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.6.5.tgz#726d8bd12903a0d51cdd17e2e1b90cc539403e0c"
+  integrity sha512-i+LXM6JiVjQXSt2jG2vZZFapGpCuk1fl8o6ii3G84MA3xgj686FKjs4JFDkmUVhtxyq21+4ay74zqPykz9hU6w==
 
 prelude-ls@~1.1.2:
   version "1.1.2"
