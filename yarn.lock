@@ -10464,10 +10464,10 @@ types-wm@^1.1.0:
   resolved "https://registry.yarnpkg.com/types-wm/-/types-wm-1.1.0.tgz#01b31b6689d77a3799bbe159ab5fd67159bf47eb"
   integrity sha512-kGecZLoCh4ge8rcRsoMtLs4nuSyi8wl687EfAH9Iss602rFDU/Heih86Awv/6958GwxxDm8gLztkLkrUEsxXug==
 
-typescript@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.2.tgz#7ea7c88777c723c681e33bf7988be5d008d05ac2"
-  integrity sha512-e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ==
+typescript@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.2.tgz#fe12d2727b708f4eef40f51598b3398baa9611d4"
+  integrity sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
