@@ -30,7 +30,7 @@
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
     "customize-cra": "^1.0.0",
-    "preact": "^10.5.2",
+    "preact": "^10.7.1",
     "react": "^16.13.1",
     "react-app-rewired": "^2.1.6",
     "react-dom": "^16.13.1",
